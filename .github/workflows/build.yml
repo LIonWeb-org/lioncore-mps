@@ -39,5 +39,5 @@ jobs:
         check_run_annotations: all tests, skipped tests
         action_fail: "true"
 
-#    - name: Test command-line export
-#      run:  xvfb-run ./gradlew testCmdlineExport
+    - name: Test command line export
+      run:  xvfb-run ./gradlew testCmdLineExport
